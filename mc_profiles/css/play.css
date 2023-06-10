@@ -1,0 +1,297 @@
+* {
+
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+body {
+
+        font-family: "Roboto", sans-serif;
+}
+
+
+
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100vh;
+
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../assets/mechanic-using-laptop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+h1 {
+        color: #FFF;
+        margin: 10px;
+}
+
+#FormForCustomer {
+        width: 620px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        padding: 10px;
+
+}
+
+/* FOrm input prop */
+#FormForCustomer input {
+        margin: 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+}
+
+input:hover {
+        border: 0.2px #0e48de;
+        box-shadow: 2px 2px 20px 2px #203f91;
+}
+
+#FormForCustomer input:focus {
+        outline: none;
+
+}
+
+#FormForCustomer .otherinof {
+
+        width: 250px;
+
+}
+
+
+#FormForCustomer .otherinof .addrressForUser {
+        display: flex;
+}
+
+
+
+#FormForCustomer .whIss {
+        margin-top: 20px;
+        color: white;
+}
+
+
+
+
+.issuecar {
+
+        width: 200px;
+        padding: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        margin-top: 10px;
+        border: none;
+        transition: all 5ms ease-in-out;
+
+        color: rgb(255, 255, 255);
+        font-size: medium;
+        font-weight: 30px;
+
+}
+
+.issuecar .form-check-input
+{
+        width: 2em;;
+        border-radius: 2em;
+        height: 1em;
+        
+
+}
+
+
+#FormForCustomer button {
+        width: 200px;
+        background-color: #203f91;
+        padding: 10px;
+        margin-top: 30px;
+        border: none;
+        transition: all 5ms ease-in-out;
+        cursor: mo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-size: medium;
+        font-weight: 300px;
+        border-radius: 10px;
+}
+
+#FormForCustomer button:hover {
+        background-color: #010a23;
+        box-shadow: 0.2px 0.2px 10px #203f91;
+        color: white;
+}
+
+#FormForCustomer textarea {
+        width: 580px;
+        height: 120px;
+        resize: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+}
+
+#FormForCustomer textarea::placeholder {
+
+        color: black;
+}
+
+
+
+/* card */
+
+.card {
+        background: rgba(38, 76, 121, 0.23);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(38, 76, 121, 0.19);
+        padding: 20px;
+        height: 110px;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        color: white;
+
+
+
+}
+
+.card .paragraph {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-grow: inherit;
+
+        width: 100px;
+        margin: 10px;
+        margin-top: 1px;
+}
+
+
+.card .buttons {
+        border: none;
+        outline: none;
+        display: flex;
+
+        color: white;
+}
+
+.card .submit {
+        background-color: #007bff;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+}
+
+.card .submit:hover {
+
+        background-color: #88bbf2;
+
+
+}
+
+.card .decline {
+        background-color: #dc3545;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+
+}
+
+.card .decline:hover {
+
+        background-color: #e9858f;
+
+
+}
+
+.card .read {
+
+
+        background-color: #FFF;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.5ms ease-in-out;
+
+
+}
+
+.card .read:hover {
+        background-color: rgb(224, 233, 240);
+}
+.card .buttons button {
+        margin-right: 20px;
+}
+
+.textinf{
+        margin-left: 20px;
+}
+
+
+.card .pr{
+padding: 15px;
+}
+.card .pr h2 span{
+
+padding: 5px;
+margin-left: -5px;
+color: #007bff;
+}
+
+.card .pr h2 {
+color: #fff;
+}
+.mid{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+}
+.mid .icon{
+        margin-left: 100px;
+}
+
+
+
+
+
+
