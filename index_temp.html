@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
         integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
         * {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,8 +25,9 @@
         }
 
         .small_gap {
-            gap:1em;
+            gap: 1em;
         }
+
         .scale {
             transition: all 1s;
         }
@@ -30,15 +35,30 @@
         .scale:hover {
             scale: 0.9;
         }
+
+        .bg-secondary {
+            color: white !important;
+            background-color: #203757 !important;
+        }
+
+        .text-secondary {
+            color: #203757;
+        }
+
+        .text-secondary *
+        {
+            color: #203757;
+        }
+
     </style>
 </head>
 
 <body>
 
     <div id="MainSection" class="bg-primary bg-gradient">
-        <nav class="navbar navbar-expand-lg bg-transparent justify-content-end w-100">
-            <a class="navbar-brand flex-grow-1 text-white" href="#"><img id="logo" src="./assets/img/logo.png"
-                    alt="">Monkiz</a>
+        <nav class="navbar navbar-expand-lg bg-transparent justify-content-end container">
+            <a class="navbar-brand flex-grow-1 text-white" href="#">
+                <img id="logo" src="./assets/img/logo.png" alt="">Monkiz</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -70,8 +90,8 @@
             </div>
         </div>
     </div>
-    <div class="bg-light">
-        <div class="container p-5 text-center">
+    <div class="bg-light bg-gradient text-secondary">
+        <div class="container p-5 text-center ">
             <h2>Urgent Repair</h2>
             <div class="row gap">
                 <div class="card col shadow scale">
@@ -102,7 +122,7 @@
         </div>
     </div>
     <div>
-        <div class="container p-5 text-center">
+        <div class="container p-5 text-center text-secondary">
             <h2>Book a trusted mechanic in just a few clicks</h2>
             <div class="row gap">
                 <div class="card col shadow scale">
@@ -132,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-light text-center p-5">
+    <div class="bg-light bg-gradient text-center p-5 text-secondary">
         <h2>Our Services</h2>
         <div class="container row justify-content-center ">
             <div class="col-6 d-flex flex-column align-items-center small_gap">
@@ -167,36 +187,83 @@
             </div>
         </div>
     </div>
-    <div id="Section_5">
-        <div id="Section_5_1">
-            <h2>Apply to be a mechanic</h2>
-            <p>Join ClickMechanic as a mechanic or garage and accept the work you want. Free to join, with great
-                perks and discounts.</p>
-            <button>Work With Monkiz</button>
-        </div>
-        <div id="Section_5_2">
-            <img id="Section_5_2_img" src="assets/img/Mechanic_Picture2.png" alt="">
-        </div>
-    </div>
-    <div id="footer">
-        <div id="footer_section_1">
-            <a href=""><img
-                    src="https://d3gy0ut0yulpjd.cloudfront.net/assets/icons/facebook-fda6e6f5afef636a52656802012d4312a759770720ca6b7e12015db7de4b6992.svg"
-                    alt=""></a>
-            <a href=""><img
-                    src="https://d3gy0ut0yulpjd.cloudfront.net/assets/icons/twitter-aeadb0a363efa65aaf69b5d8bfcdd2472e3f2aead97fcd907fcb99857d70aa8c.svg"
-                    alt=""></a>
-        </div>
-        <div id="footer_section_2">
-            <div class="footer_section_2_">
-                <a href="">Careers</a>
+    <footer class="bg-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container px-5">
+            <!--Grid row-->
+            <div class="row align-items-center">
+                <!--Grid column-->
+                <div class="col-lg-8 col-md-12 mb-4 mb-md-0 text-center text-secondary">
+                    <h2>Apply to be a mechanic</h2>
+                    <p>Join Monkiz as a mechanic or garage and accept the work you want. Free to join, with great
+                        perks and discounts.</p>
+                    <button class="btn btn-dark bg-secondary rounded-pill scale text-white">Work With Monkiz</button>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <img class="w-100" src="assets/img/Mechanic_Picture2.png" alt="">
+                </div>
+                <!--Grid column-->
             </div>
-            <div class="footer_section_2_">
-                <a href="">Frequently Asked Questions</a>
-            </div>
-
         </div>
-    </div>
+        <div class="p-4 bg-secondary text-center">
+            <!-- Section: Social media -->
+            <section>
+              <!-- Facebook -->
+              <a
+                class="btn text-white btn-floating m-1 scale"
+                style="background-color: #3b5998;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                class="btn text-white btn-floating m-1 scale"
+                style="background-color: #55acee;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a
+                class="btn text-white btn-floating m-1 scale"
+                style="background-color: #dd4b39;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                class="btn text-white btn-floating m-1 scale"
+                style="background-color: #ac2bac;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a
+                class="btn text-white btn-floating m-1 scale"
+                style="background-color: #0082ca;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <!-- Github -->
+              <a
+                class="btn text-white btn-floating m-1 scale"
+                style="background-color: #333333;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+    </footer>
     <div id="chatbot">
         <a href="chatbot.html">
             <img src="assets/img/chatbot-icon.png" alt="">
