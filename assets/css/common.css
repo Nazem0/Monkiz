@@ -1,39 +1,37 @@
-<style>
-        * {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            box-sizing: border-box;
-        }
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
 
-        .gap {
-            gap: 3em;
-        }
+.gap {
+    gap: 3em;
+}
 
-        .small_gap {
-            gap: 1em;
-        }
+.small_gap {
+    gap: 1em;
+}
 
-        .scale {
-            transition: all 1s;
-        }
+.scale {
+    transition: all 1s;
+}
 
-        .scale:hover {
-            scale: 0.9;
-        }
+.scale:hover {
+    scale: 0.9;
+}
 
-        .bg-secondary {
-            color: white !important;
-            background-color: #203757 !important;
-        }
+.bg-secondary {
+    color: white !important;
+    background-color: #203757 !important;
+}
 
-        .text-secondary {
-            color: #203757;
-        }
+.text-secondary {
+    color: #203757;
+}
 
-        .text-secondary * {
-            color: #203757;
-        }
+.text-secondary * {
+    color: #203757;
+}
 
-        .blur {
-            filter: blur(2px);
-        }
-    </style>
+.blur {
+    filter: blur(2px);
+}
