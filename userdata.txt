@@ -1,0 +1,49 @@
+Clients
+
+1- Abdelrahman Ashraf
+abdelrahmanashraf2@gmail.com
+123456789
+01151241136
+
+
+2- mostafa
+mo@gmail.com
++201145879458
+Aswan
+--------------------------------------------------------------------------
+Maintenance Center
+
+1- Anas Car Center
+anascarcenter19@gmail.com
+New Industrial Area, Aswan, El-Seel East
+123456789
+01003422839
+
+2- Mola Car
+molacar3@monkez.com
+Block 3, Neighborhood 13, New Industrial City
+0973440721
+
+3- Malik Anas Aswan Center
+malikcenter4@monkez.com
+New Industrial City - Aswan , Aswan, Egypt
+01003422839
+
+4- Body Car Aswan
+bodycar8@monkez.com
+Aswan Sadat Road next to Dar El Oyoun Hospital - in front of the family court
+01115579111
+
+
+-----------------------------------------------------------
+ADMINS
+
+1- admin@monkiz.com
+
+
+Laravel 9
+
+PHP 8
+
+mySQL Database
+
