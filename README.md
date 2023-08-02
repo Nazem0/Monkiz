@@ -1,7 +1,8 @@
 <p align="center">
     <b>Welcome to Monkiz</b>
-    ![logo-dark](https://github.com/Nazem0/Monkiz/assets/109486038/fabfc2d9-bed7-45c7-96e7-acfcf30ce6ba)
 </p>
+
+    ![logo-dark](https://github.com/Nazem0/Monkiz/assets/109486038/fabfc2d9-bed7-45c7-96e7-acfcf30ce6ba)
 
 <p>Monkiz is an innovative platform that serves as an intermediate between car owners and maintenance centers. It is designed to simplify the process of car maintenance and repair by connecting car owners with reliable and affordable maintenance centers.</p>
 
