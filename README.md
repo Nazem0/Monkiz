@@ -9,8 +9,8 @@ This project is built using Laravel, a popular PHP framework that follows the MV
 <b>Getting Started</b>
 
 To get started with Monkiz, follow these steps:
-Clone this repository to your local machine
-Create a new database and update the .env file with your database credentials
-Import the SQL file 'Monkiz.sql' into the database you have created.
-Run php artisan storage:link to create a symbolic link to the storage directory
-Run php artisan serve to start the server
+- Clone this repository to your local machine
+- Create a new database and update the .env file with your database credentials.
+- Import the SQL file 'monkiz.sql' into the database you have created.
+- Run php artisan storage:link to create a symbolic link to the storage directory.
+- Run php artisan serve to start the server.
