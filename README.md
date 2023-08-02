@@ -2,7 +2,7 @@
 
 Monkiz is an innovative platform that serves as an intermediate between car owners and maintenance centers. It is designed to simplify the process of car maintenance and repair by connecting car owners with reliable and affordable maintenance centers.
 
-</b>About the Project</b>
+<b>About the Project</b>
 
 This project is built using Laravel, a popular PHP framework that follows the MVC architecture pattern. It provides a well-structured and efficient codebase that makes it easy to develop and maintain the application.
 
