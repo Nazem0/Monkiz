@@ -1,4 +1,4 @@
-<h1>Welcome to Monkiz</h1>
+<h1 align="center">Welcome to Monkiz</h1>
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/109486038/257870517-1360a1b7-7571-43ab-a0a2-2d2e9fdb5ee7.svg" alt="Monkiz Logo">
 
 <p>Monkiz is an innovative platform that serves as an intermediate between car owners and maintenance centers. It is designed to simplify the process of car maintenance and repair by connecting car owners with reliable and affordable maintenance centers.</p>
