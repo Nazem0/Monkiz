@@ -9,6 +9,7 @@
 
 <h2>Getting Started</h2>
 <p>To get started with Monkiz, follow these steps:</p>
+
 * Clone this repository to your local machine
 * Create a new database and update the .env file with your database credentials.
 * Import the SQL file 'monkiz.sql' into the database you have created.
