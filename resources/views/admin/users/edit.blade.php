@@ -1,5 +1,5 @@
 @php
-if (auth()->id()!=$user['id'])
+if (auth()->id()!=$user['id']&&auth()->user()->role!='Admin')
 {
   return back();
 }
@@ -53,7 +53,7 @@ if (auth()->id()!=$user['id'])
             <select class="form-control" id="role" name="role">
                 <option value="Client" {{ $user['role'] == 'Client' ? 'selected' : '' }}>Client</option>
                 <option value="Maintenance_Center" {{ $user['role'] == 'Maintenance_Center' ? 'selected' : '' }}>Maintenance Center</option>
-                @if(auth()->user()->role == 'admin')
+                @if(auth()->user()->role == 'Admin')
                 <option value="Admin" {{ $user['role'] == 'Admin' ? 'selected' : '' }}>Admin</option>
                 @endif
             </select>
