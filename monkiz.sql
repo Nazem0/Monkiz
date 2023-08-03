@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Aug 01, 2023 at 12:32 AM
+-- Host: 127.0.0.1
+-- Generation Time: Aug 03, 2023 at 09:44 AM
 -- Server version: 10.4.28-MariaDB
--- PHP Version: 8.0.28
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -138,14 +138,14 @@ CREATE TABLE `services` (
 --
 
 INSERT INTO `services` (`id`, `name`, `icon`, `created_at`, `updated_at`) VALUES
-(28, 'Oil Change', '6d2cd0f90b6b2fba4f0ce01fa7813055.png', '2023-07-25 19:39:44', '2023-07-25 19:39:44'),
-(29, 'Brake Pads', '1c542c3ed9cfa58a668c5b16248d69db.png', '2023-07-25 19:52:59', '2023-07-25 19:52:59'),
-(30, 'General Diagnosis', '6c8951ce10f6ddbf49f526e4a24f6af6.png', '2023-07-25 19:53:45', '2023-07-25 19:54:54'),
-(31, 'Engine', 'f5ddd21cfc87e8c82bec775e4ffdce11.png', '2023-07-25 19:54:01', '2023-07-25 19:54:01'),
-(32, 'Wheels', '714997af124b832fd4c963a45e419693.png', '2023-07-25 19:54:14', '2023-07-25 19:54:14'),
-(33, 'A/C Diagnosis', '7398b6f0920eca35625915d1c7258bfb.png', '2023-07-25 19:54:22', '2023-07-25 19:54:22'),
-(34, 'Car Wash', '8da096651119c8e6300020e6be9e6b64.png', '2023-07-25 19:54:35', '2023-07-25 19:55:06'),
-(35, 'Vehicle Towing', 'b048332e3e36ee0fe317f24ea8260868.png', '2023-07-25 19:56:43', '2023-07-25 19:56:43');
+(28, 'Oil Change', '5b4ec2b5e698df6f6e15205bffed754a.png', '2023-07-25 19:39:44', '2023-08-03 07:42:45'),
+(29, 'Brake Pads', '4b548904f6adf9da7a74be9806d55bbc.png', '2023-07-25 19:52:59', '2023-08-03 07:42:51'),
+(30, 'General Diagnosis', 'd800e6094bd6f065efe8552b06dc13b3.png', '2023-07-25 19:53:45', '2023-08-03 07:42:58'),
+(31, 'Engine', '88f98e0a7cbfd09110197505fe876ad8.png', '2023-07-25 19:54:01', '2023-08-03 07:43:06'),
+(32, 'Wheels', '5346580cdbef9491c0d1e72a7e4b2e75.png', '2023-07-25 19:54:14', '2023-08-03 07:43:11'),
+(33, 'A/C Diagnosis', '6e11b4b8d02f59950ccd4638ef68691e.png', '2023-07-25 19:54:22', '2023-08-03 07:43:17'),
+(34, 'Car Wash', '9d5ab5810b71837324e06278b7a35bc6.png', '2023-07-25 19:54:35', '2023-08-03 07:43:22'),
+(35, 'Vehicle Towing', '5b5ef239900fc8938de7c0ed66ac5ea0.png', '2023-07-25 19:56:43', '2023-08-03 07:43:28');
 
 -- --------------------------------------------------------
 
@@ -241,10 +241,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `email_verified_at`, `image`, `phone`, `city`, `role`, `remember_token`, `created_at`, `updated_at`) VALUES
-(5, 'Admin', 'mohamednazem09@outlook.com', '$2y$10$zDm7NqcdEXosrBdn.3o9eeNHOuPVULGiGDPvDhfmGUroABx.gd2RO', NULL, 'e0e2c0cdcf6f5114469933d887f97729.png', '+201064642987', 'Abtal El-Tahrir Street Aswan First Aswan Aswan', 'Admin', NULL, '2023-07-01 20:00:56', '2023-07-25 20:16:42'),
-(11, 'Mohamed Nazem Mahrous', 'mohamednazem09@gmail.com', '$2y$10$4DTHvKvyaDbMRlsaxyPmzuE2DiTCZXJby3wjIHK1kYtekiWtsOHVy', NULL, '079027f6af8afaec8342af4f28b698a8.png', '+201100233249', 'Abtal El-Tahrir Street Aswan Aswan', 'Client', NULL, '2023-07-25 20:10:43', '2023-07-25 20:10:43'),
-(12, 'Dummy Maintenance Center', 'm@domain.com', '$2y$10$vSp5u.8Iwy3zu7IjUTqIO.U4fmJBIOQXoTskA9jwY8dViv1gnUdYK', NULL, 'b1ba6f30aef99af54bb53a0770955902.png', '+201100233249', 'Bab al Luq Cairo Cairo', 'Maintenance_Center', NULL, '2023-07-25 20:30:28', '2023-07-25 20:30:48'),
-(13, 'Dummy Maintenance Center 2', 'm2@domain.com', '$2y$10$Q1kRYVPE8DXIE16xnXQg9.KZOGQe6mgvn8qeAfXqERLQo5yXVJ2pe', NULL, 'f42c146e595bb139cb5d10ebd470b0a2.jpg', '+201064642987', '29 Al Tahrir Street Asyut Asyut Asyut', 'Maintenance_Center', NULL, '2023-07-28 15:22:56', '2023-07-28 15:22:56');
+(5, 'Admin', 'mohamednazem09@outlook.com', '$2y$10$zDm7NqcdEXosrBdn.3o9eeNHOuPVULGiGDPvDhfmGUroABx.gd2RO', NULL, '3cd4f17940eba353b46716026152fdd1.png', '+201064642987', 'Abtal El-Tahrir Street Aswan First Aswan Aswan', 'Admin', NULL, '2023-07-01 20:00:56', '2023-08-03 07:38:26'),
+(11, 'Mohamed Nazem Mahrous', 'mohamednazem09@gmail.com', '$2y$10$4DTHvKvyaDbMRlsaxyPmzuE2DiTCZXJby3wjIHK1kYtekiWtsOHVy', NULL, 'bc959a3584a522351b366e3fb043c45f.png', '+201100233249', 'Abtal El-Tahrir Street Aswan Aswan', 'Client', NULL, '2023-07-25 20:10:43', '2023-08-03 07:39:23'),
+(12, 'Dummy Maintenance Center', 'm@domain.com', '$2y$10$vSp5u.8Iwy3zu7IjUTqIO.U4fmJBIOQXoTskA9jwY8dViv1gnUdYK', NULL, 'bca8a9c7fa0091aaa004174be1dc8f30.png', '+201100233249', 'Bab al Luq Cairo Cairo', 'Maintenance_Center', NULL, '2023-07-25 20:30:28', '2023-08-03 07:39:37'),
+(13, 'Dummy Maintenance Center 2', 'm2@domain.com', '$2y$10$Q1kRYVPE8DXIE16xnXQg9.KZOGQe6mgvn8qeAfXqERLQo5yXVJ2pe', NULL, '5871aa6f54f6ea73d007890d6c1b2060.png', '+201064642987', '29 Al Tahrir Street Asyut Asyut Asyut', 'Maintenance_Center', NULL, '2023-07-28 15:22:56', '2023-08-03 07:39:43');
 
 --
 -- Indexes for dumped tables
